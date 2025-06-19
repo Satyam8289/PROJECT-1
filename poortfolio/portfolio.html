@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Graphic & Front-End Developer Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+    @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+    </style>
+
+ 
+   
+    
+    
+    
+</head>
+<body>
+  <header>
+    <div class="logo" tabindex="0">SATYAM  &nbsp;PORTFOLIO</div>
+    <nav role="navigation" aria-label="Primary navigation">
+      <a href="#landing" tabindex="0">Home</a>
+      <a href="#about" tabindex="0">About</a>
+      <a href="#education" tabindex="0">Education</a>
+      <a href="#skills" tabindex="0">Skills</a>
+      <a href="#projects" tabindex="0" >Projects</a>
+      <a href="#contact" tabindex="0">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="landing" id="landing" aria-label="Introduction landing section">
+      <div class="landing-content">
+        <h1>Hi, I'm <span aria-label="Name highlight">SATYAM KUMAR JHA</span></h1>
+        <p>An innovative <strong>frontend developer</strong> and <strong>graphic designer</strong> specialized in crafting engaging, animated, and user-centered web experiences.</p>
+        <button class="btn-primary" aria-label="Explore my projects" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">Learn More</button>
+        <div class="profile-image-container" aria-hidden="true">
+          <img
+            loading="lazy"
+            decoding="async"
+            src="IMG_0502.JPG"
+            alt="Profile picture of Alex Smith with a modern, clean, professional style, wearing smart casual outfit in studio lighting"
+            class="profile-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-label="About me section">
+      <h2>About Me</h2>
+      <p>I am a passionate Graphic Designer and Front-End Developer currently pursuing my studies, with a strong interest in creating visually engaging and user-friendly digital experiences. I specialize in HTML, CSS, and design tools like Photoshop and Figma. Though I am early in my journey, I constantly explore new trends and technologies to improve my skills. I believe in learning by doing and am eager to contribute to real-world projects with creativity and precision.</p>
+    </section>
+
+    <section class="education" id="education" aria-label="Education and qualifications section">
+      <h2>Education</h2>
+      <div class="education-list">
+        <article class="education-item" tabindex="0" role="region" aria-labelledby="edu-bachelor">
+          <h3 id="edu-bachelor">Bachlor Of Computer Application</h3>
+          <span class="institution">Mdu Rohtak</span>
+          <span class="dates">2025 - 2027</span>
+          <p>Graduated with honors, focusing on digital media, typography, and branding. Developed strong foundation in design principles and software including Adobe Creative Suite.</p>
+        </article>
+        <article class="education-item" tabindex="0" role="region" aria-labelledby="edu-certification">
+          <h3 id="edu-certification">Frontend Web Development</h3>
+          <span class="institution">Code Academy</span>
+          <span class="dates">2019</span>
+          <p>Completed an intensive full-stack frontend course covering modern HTML5, CSS3, JavaScript ES6+, React.js, accessibility, and performance optimization.</p>
+        </article>
+        <article class="education-item" tabindex="0" role="region" aria-labelledby="edu-continuing">
+          <h3 id="edu-continuing">Continuous Learning & Workshops</h3>
+          <span class="institution">Various online platforms</span>
+          <span class="dates">2019 - Present</span>
+          <p>Regularly enhance skills with courses on animation, UX design, and advanced JavaScript frameworks including GSAP animations and TypeScript fundamentals.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills" id="skills" aria-label="Skills and expertise section">
+      <h2>My Expertise</h2>
+      <div class="skills-grid">
+        <article class="skill-card" tabindex="0" role="region" aria-labelledby="skill-html">
+          <div class="skill-icon" aria-hidden="true">code</div>
+          <h3 class="skill-title" id="skill-html">HTML &amp; CSS</h3>
+          <p class="skill-desc">Meticulous in semantic markup and creating pixel-perfect, responsive designs with modern CSS techniques including Flexbox and Grid.</p>
+        </article>
+        <article class="skill-card" tabindex="0" role="region" aria-labelledby="skill-js">
+          <div class="skill-icon" aria-hidden="true">javascript</div>
+          <h3 class="skill-title" id="skill-js">JavaScript</h3>
+          <p class="skill-desc">Expertise in java script for interactive and animated experiences.</p>
+        </article>
+        <article class="skill-card" tabindex="0" role="region" aria-labelledby="skill-ux">
+          <div class="skill-icon" aria-hidden="true">brush</div>
+          <h3 class="skill-title" id="skill-ux">Graphic  Design</h3>
+          <p class="skill-desc">Designing intuitive interfaces with a focus on accessibility, user flow, and visual aesthetics using Canva and Adobe Photoshop.</p>
+        </article>
+        <article class="skill-card" tabindex="0" role="region" aria-labelledby="skill-animation">
+          <div class="skill-icon" aria-hidden="true">motion_photos_on</div>
+          <h3 class="skill-title" id="skill-animation">Animation & Visual Effects</h3>
+          <p class="skill-desc">Crafting smooth animations using CSS3, SVG, and JavaScript for delightful user interactions and storytelling.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects" id="projects" aria-label="Projects showcase section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card" tabindex="0" role="region" aria-labelledby="proj-portfolio">
+          <div class="project-image-container">
+           <a href="2025-06-17.png" target="_blank">
+  <img
+    loading="lazy"
+    decoding="async"
+    src="2025-06-17.png"
+    alt="Naruto-themed login page preview"
+    class="project-image"
+  />
+</a>
+
+          </div>
+           <!-- <div class="project-content">
+            <h3 class="project-title" id="proj-portfolio">Personal Portfolio Site</h3>
+            <p class="project-desc">A fully responsive and animated portfolio built with React.js, featuring modern UI/UX design and smooth interactions.</p>
+            <div class="project-tools" aria-label="Technologies used: React, CSS animations, JavaScript">React, CSS Animations, JavaScript</div>
+          </div> -->
+            
+          <div class="project-content">
+            <h3 class="project-title">Naruto-Themed Login Page</h3>
+            <p class="project-desc">
+              A Naruto-inspired login UI built with HTML and CSS using glassmorphism and dark anime style. Click the image to view full screen.
+            </p>
+            <div class="project-tools">HTML, CSS, Glassmorphism</div>
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0" role="region" aria-labelledby="proj-branding">
+          <div class="project-image-container">
+            <img 
+              loading="lazy" 
+              decoding="async"
+              src="2025-06-17.png" 
+              alt="Brand identity graphics with logo and color palette for a startup company"
+              class="project-image"
+            />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title" id="proj-branding">Brand Identity Design</h3>
+            <p class="project-desc">Developed a cohesive brand system including logos, color palettes, and typography guidelines for a tech startup.</p>
+            <div class="project-tools" aria-label="Technologies used: Adobe Illustrator, Adobe Photoshop">Adobe Illustrator, Photoshop</div>
+          </div>
+        </article>
+
+        <article class="project-card" tabindex="0" role="region" aria-labelledby="proj-animation">
+          <div class="project-image-container">
+            <img 
+              loading="lazy" 
+              decoding="async"
+              src="2025-06-17.png" 
+              alt="Interactive web animation demo featuring subtle motion and hover effects"
+              class="project-image"
+            />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title" id="proj-animation">Interactive Animation Demo</h3>
+            <p class="project-desc">Created engaging UI animations utilizing GSAP and SVG for an immersive user experience demo.</p>
+            <div class="project-tools" aria-label="Technologies used: GSAP, SVG, JavaScript">GSAP, SVG, JavaScript</div>
+          </div>
+        </article>
+      </div>
+    </section> 
+
+
+    
+
+    <section class="contact" id="contact" aria-label="Contact section">
+      <h2>Contact Me</h2>
+      <p>If you want to discuss a project or just want to say hello, feel free to reach out!</p>
+      <a href="mailto:alex.smith@example.com" class="email-button" aria-label="Send email to Alex Smith">mrsatyamkumarjha.2006@gmail.com</a>
+    </section>
+
+  </main>
+  <footer aria-label="Contact information footer">
+    &copy; 2024 Alex Smith. Designed and developed with passion. 
+    <br />
+    <a href="mrsatyamkumarjha.2006@gmail.com" aria-label="Send email to Alex Smith">Contact Me</a>
+  </footer>
+
+</body>
+</html> 
+
